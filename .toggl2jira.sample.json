@@ -1,0 +1,28 @@
+{
+  "toggl": {
+    "url": "https://api.track.toggl.com/api/v8",
+    "api_token": "yourtoggltoken",
+    "default_time_span": "15"
+  },
+  "jira": {
+    "united": {
+      "url": "http://18.229.78.216",
+      "usr": "yourusername",
+      "pwd": ""
+    },
+    "wt": {
+      "url": "https://jira.uhub.biz",
+      "usr": "your.user@wundermanthompson.com",
+      "pwd": "",
+      "worker": "your.user@wunderman.com"
+    }
+  },
+  "globalReplacements": {
+    "issue_id": {
+      "UMP-9441": "(?:WUNARGUADQK-|UMP-6502).*"
+    },
+    "project_id": {
+      "UMP-9441": "156357025"
+    }
+  }
+}

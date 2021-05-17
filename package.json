@@ -1,0 +1,18 @@
+{
+  "name": "toggl2jira",
+  "version": "1.2.0",
+  "description": "Upload toggle time entries to Jira Tempo plugin timesheets",
+  "main": "toggl2jira.js",
+  "bin": {
+    "toggl2jira": "./toggl2jira.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Dasso <lucas.dasso@wundermanthompson.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^16.2.0"
+  }
+}
