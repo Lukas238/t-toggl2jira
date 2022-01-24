@@ -18,7 +18,9 @@ See the toggl.default_time_span option on the [Configuration](#configuration) se
 
 ## Options
 
-You can run the script and pass a custom time span of days to retrieve Toggl time entries, regardless of the configured default `toggl.default_time_span`, by using the option `-t [number of days]`. In the following example we ask the script to retrieve 30 days worth of Toggl time entries.
+You can run the script and pass a custom time span of days to retrieve Toggl time entries,
+regardless of the configured default `toggl.default_time_span`, by using the option `-t [number of days]`.
+In the following example we ask the script to retrieve 30 days worth of Toggl time entries.
 
 ```bash
 toggl2jira -t 30
@@ -28,7 +30,7 @@ toggl2jira -t 30
 
 1. To install run the command to install the script globally.
     ```bash
-    npm install -g git+ssh://git@bitbucket-ssh.uhub.biz:7999/wunargua/t-toggl2jira.git
+    npm install -g git+ssh://git@bitbucket-ssh.uhub.biz:7999/~lucas.dasso_wundermanthompson.com/t-toggl2jira.git
     ```
 2. Run the initialization command to create the `.toggl2jira.json` configuration file on your user home folder:
     ```bash
